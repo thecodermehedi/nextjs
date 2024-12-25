@@ -30,7 +30,6 @@ jobs:
         with:
           node-version: "lts/*"
           check-latest: true
-          cache: "bun"
 
       - name: Install dependencies
         run: bun install
@@ -55,7 +54,6 @@ jobs:
         with:
           node-version: "lts/*"
           check-latest: true
-          cache: "bun"
 
       - name: Install dependencies
         run: bun install
@@ -80,7 +78,6 @@ jobs:
         with:
           node-version: "lts/*"
           check-latest: true
-          cache: "bun"
 
       - name: Install dependencies
         run: bun install
