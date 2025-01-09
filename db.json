@@ -1,0 +1,34 @@
+{
+ "shoes": [
+  {
+   "id": 1,
+   "title": "Running Shoes",
+   "description": "Comfortable running shoes with great cushioning for all-day wear.",
+   "price": 89.99
+  },
+  {
+   "id": 2,
+   "title": "Casual Sneakers",
+   "description": "Stylish sneakers perfect for everyday wear and casual outings.",
+   "price": 59.99
+  },
+  {
+   "id": 3,
+   "title": "Boots",
+   "description": "Durable boots designed for outdoor adventures and rugged terrain.",
+   "price": 129.99
+  },
+  {
+   "id": 4,
+   "title": "Dress Shoes",
+   "description": "Elegant dress shoes ideal for formal events and business occasions.",
+   "price": 109.99
+  },
+  {
+   "id": 5,
+   "title": "Flip Flops",
+   "description": "Lightweight flip flops for a relaxed and casual summer look.",
+   "price": 19.99
+  }
+ ]
+}
