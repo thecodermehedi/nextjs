@@ -1,19 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  images: {
-    // domains: ['nextjs.org'],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-        // port: '',
-        // pathname: '/account123/**',
-        // search: '',
-      },
-    ],
-  },
+ output: "export",
+ trailingSlash: true,
+ images: {
+  remotePatterns: [
+   {
+    protocol: "https",
+    hostname: "**",
+   },
+  ],
+  unoptimized: true
+ },
 };
 
 export default nextConfig;
